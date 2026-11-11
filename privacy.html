@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>gmail-triage — Privacy Policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; color: #222; }
+  h1, h2 { line-height: 1.25; }
+  hr { margin: 2rem 0; }
+</style>
+</head>
+<body>
+
+<h1>gmail-triage — Privacy Policy</h1>
+<p><em>Last updated: November 11, 2026</em></p>
+
+<p>gmail-triage is a personal, single-user command-line tool that helps its owner organize their own Gmail account (labeling, archiving and trashing unwanted senders). It is not offered to the public and has no other users.</p>
+
+<h2>What the app accesses</h2>
+<p>With the owner's explicit consent, the app uses these Gmail permissions:</p>
+<ul>
+  <li><code>gmail.modify</code>: read message metadata and change labels, archive, or move messages to Trash. The app never permanently deletes messages.</li>
+  <li><code>gmail.settings.basic</code>: create Gmail filters for senders the owner has chosen to block.</li>
+</ul>
+
+<h2>How data is handled</h2>
+<ul>
+  <li>Message metadata (sender address, subject, date, unsubscribe headers) is stored in a local database on the owner's own computer.</li>
+  <li>Nothing is uploaded to servers operated by the app's developer. The app has no backend.</li>
+  <li>Data is not sold, shared for advertising, or used to train generalized AI models.</li>
+  <li>When AI-assisted classification is enabled, limited data (sender address, truncated subject and Gmail snippet; in rare cases a truncated message body) may be sent to the Anthropic API solely to decide whether a message is unwanted. Messages from senders the owner has marked as protected are never sent. Message bodies are never written to logs.</li>
+  <li>Access tokens are stored in a local file readable only by the owner.</li>
+</ul>
+
+<h2>Google API Services User Data Policy</h2>
+<p>The use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h2>Retention and revocation</h2>
+<p>The owner can delete the local database and token file at any time, and can revoke the app's access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>Contact</h2>
+<p>Thiago Garcia Vaz — <a href="mailto:thiagogarciavaz@gmail.com">[CONTACT_EMAIL]</a></p>
+
+<hr>
+
+<h1>Política de Privacidade (resumo em português)</h1>
+<p>O gmail-triage é uma ferramenta pessoal, de um único usuário, para organizar a própria caixa do Gmail do seu dono. Não é oferecida ao público.</p>
+<ul>
+  <li>Acessa os metadados dos e-mails (remetente, assunto, data, cabeçalhos de cancelamento) e altera rótulos, arquivo e lixeira. Nunca apaga definitivamente.</li>
+  <li>Os dados ficam em um banco local no computador do dono. Não há servidor do desenvolvedor.</li>
+  <li>Nada é vendido, usado para publicidade ou para treinar modelos de IA.</li>
+  <li>Com a classificação por IA ativada, dados limitados (remetente, assunto truncado e trecho do Gmail) podem ser enviados à API da Anthropic só para decidir se o e-mail é indesejado. Remetentes protegidos nunca são enviados.</li>
+  <li>O acesso pode ser revogado em myaccount.google.com/permissions.</li>
+</ul>
+
+</body>
+</html>
